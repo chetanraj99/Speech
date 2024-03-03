@@ -81,3 +81,25 @@ select {
   background-position-x: calc(100% - 20px);
   background-position-y: 20px;
 }
+@media screen and (max-width: 720px) {
+  textarea {
+    width: 95%;
+  }
+
+  .row {
+    display: flex;
+    flex-direction: column;
+  }
+  select {
+    width: 60%;
+    padding: 15px;
+  }
+  button {
+    width: 60%;
+    display: flex;
+    justify-content: center;
+  }
+  .hero h1 {
+    padding: 15px;
+  }
+}
